@@ -1,0 +1,81 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: auto;
+    width: auto;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    /*transition: 0.5s; */
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  height: 30px;
+  width: 30px;
+    position: absolute;
+    top: 10%;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.shadow{
+    border-radius: 5%;
+    opacity: 0.95;
+    box-shadow: 5px 5px 9px #999;
+}
+#createCita {
+     color: white;
+     position:fixed;
+     float: right;
+     top: 10%;
+     right: auto;
+     z-index: 2;
+     display: none;
+     left: 20%;
+     background-color: black;
+     border-radius: 10%;
+     opacity: 0.95;
+     box-shadow: 5px 5px 9px #999;
+
+ }
+
+#createAd {
+    color: white;
+    position:fixed;
+    float: right;
+    top: 10%;
+    right: auto;
+    z-index: 2;
+    display: none;
+    left: 20%;
+    background-color: black;
+    border-radius: 10%;
+    opacity: 0.95;
+    box-shadow: 5px 5px 9px #999;
+
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+
+}
